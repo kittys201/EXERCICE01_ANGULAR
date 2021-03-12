@@ -1,0 +1,51 @@
+<section>
+
+    <article>
+        <h3>Meu nome é: {{meunome}} </h3>
+        <p>Sou de: {{pais}}</p>
+        <p>Eu nasci na sua capital: {{ciudade}}</p>
+        <p>Eu gosto: {{gosto1}} e {{gosto2}}</p>
+        <div #conteiner1>
+            <h4>Comidas Favoritas Saudáveis:</h4>   
+            <ul>
+                <li> 
+                  <p>{{Comida1}}</p>  
+                  <img #image1 [src]="url1" [alt]="alt1">
+                </li>
+                <li> 
+                    <p>{{Comida2}}</p>  
+                    <img #image2 [src]="url2" [alt]="alt2">
+                  </li>
+                  <li> 
+                    <p>{{Comida3}}</p>  
+                    <img #image3 [src]="url3" [alt]="alt3">
+                  </li>
+
+            </ul>
+           </div>
+           <div #conteiner2>
+            <h4>
+                {{gosto2}}
+                <ul>
+                    <li> 
+                        <p>{{actividade5}}</p>  
+                        <img #image5 [src]="url5" [alt]="alt5">
+                      </li>
+                      <li> 
+                          <p>{{actividade6}}</p>  
+                          <img #image6 [src]="url6" [alt]="alt6">
+                        </li>
+                        <li> 
+                          <p>{{actividade7}}</p>  
+                          <img #image7 [src]="url7" [alt]="alt7">
+                        </li>
+                </ul>
+            </h4>
+           </div>
+           <div>
+               <h3> Esta sou eu:              
+               </h3> 
+               <img #image8 [src]="url10" [alt]="alt10">
+           </div>
+    </article>
+</section>

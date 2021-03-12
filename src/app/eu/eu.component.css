@@ -1,0 +1,52 @@
+ h1, h2, h3, h4, p{
+    font-family: cursive;
+    font-style: italic;
+    font-size:xx-large;
+    color: blue;
+
+ }
+ #conteiner1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color: white;
+}
+
+#container2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color:white;
+}
+
+ul {
+    position: relative;
+    width: 50vw;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:white;
+
+}
+img {
+width: auto;
+height: auto;
+max-width: 200px;
+max-height: 200px;
+}
+p{
+font-weight: bold;
+font-size:15px ;
+border: 20px;
+align-content: center;
+}
+ul {
+list-style: none;
+}
